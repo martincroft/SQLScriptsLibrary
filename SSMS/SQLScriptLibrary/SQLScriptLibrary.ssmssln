@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQLScriptLibrary", "SQLScriptLibrary\SQLScriptLibrary.ssmssqlproj", "{8015C49F-5A99-4391-B78E-4427B5BF9D43}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CMS", "CMS\CMS.ssmssqlproj", "{8464159E-90F0-4FF5-ACCA-EC169BADF237}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Blocking", "Blocking\Blocking.ssmssqlproj", "{03A39EFE-3CA4-4620-912C-EAB992CA49CA}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "AvailabilityGroups", "AvailabilityGroups\AvailabilityGroups.ssmssqlproj", "{56E75C05-D423-410E-AC07-1AD527E7FD81}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Brent", "Brent\Brent.ssmssqlproj", "{6249E9E7-7719-4CCF-9721-AEE047B23E66}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Auditing", "Auditing\Auditing.ssmssqlproj", "{1F9D8F6C-3024-4F7C-89E3-8C1261770572}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Azure", "Azure\Azure.ssmssqlproj", "{00592B9C-E6FC-4F33-AA10-29F5A88BAE55}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Capacity", "Capacity\Capacity.ssmssqlproj", "{149E6D85-F49E-496B-A8F4-F205CE5A437F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CLR", "CLR\CLR.ssmssqlproj", "{7406B09A-66ED-4966-8B58-95CEA74CFF8B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Connectivity", "Connectivity\Connectivity.ssmssqlproj", "{AE6FCBFE-33D2-4DC9-A3BC-1CBAB7F1963C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CPU", "CPU\CPU.ssmssqlproj", "{D331B0D2-3DD2-4F71-970C-9E5A111C31B4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DBAProcedures", "DBAProcedures\DBAProcedures.ssmssqlproj", "{5B184BC7-9F8C-467B-9BC1-73AF15A2D2E0}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DBAProceduresStandAlone", "DBAProceduresStandAlone\DBAProceduresStandAlone.ssmssqlproj", "{7FDFB7BC-53DB-4B2C-995E-0EDEADE057BD}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Deadlocks", "Deadlocks\Deadlocks.ssmssqlproj", "{FD3322B0-089A-4E04-93A0-CCB0C6F79E11}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Emails", "Emails\Emails.ssmssqlproj", "{568B838E-EE5C-4F04-8329-9A7D4EA3DAA8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ErrorLogs", "ErrorLogs\ErrorLogs.ssmssqlproj", "{D6210663-6B3E-4B36-8F28-9C6984AD7D7B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ExtendedEvents", "ExtendedEvents\ExtendedEvents.ssmssqlproj", "{CE280D8C-2A4C-4161-B073-8EBF328EE64C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ExtendedPropertys", "ExtendedPropertys\ExtendedPropertys.ssmssqlproj", "{3403D032-C898-42F8-88FA-AD7A60EED0E8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "FullText", "FullText\FullText.ssmssqlproj", "{5AAD5DF8-8E30-4708-A488-A07110D5EC14}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "LinkedServers", "LinkedServers\LinkedServers.ssmssqlproj", "{B4557B58-8908-4425-AF67-5DB64EC65F2B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Memory", "Memory\Memory.ssmssqlproj", "{0C8AA1AB-9CB3-48C5-B387-9CA963213E1D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MIrroring", "MIrroring\MIrroring.ssmssqlproj", "{A67415C9-CDA9-457A-8FD1-20DA824B268A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Profiler", "Profiler\Profiler.ssmssqlproj", "{9BBC0C16-A63F-42ED-9159-08620E5B8599}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SSRS", "SSRS\SSRS.ssmssqlproj", "{660AD24E-EDAD-4F68-B28D-1CCD79BACCF1}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SnapShots", "SnapShots\SnapShots.ssmssqlproj", "{70085CDE-EB0B-4328-A4B9-8F8E93668217}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQLJobs", "SQLJobs\SQLJobs.ssmssqlproj", "{CDDAED8B-8170-4384-AE2A-64EB9731FDD8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Useful", "Useful\Useful.ssmssqlproj", "{602657E8-829B-4E0A-8437-AE0EAC5B4128}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Demo", "Demo\Demo.ssmssqlproj", "{7FBF13FD-0786-483A-B05A-A4D791D086D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8015C49F-5A99-4391-B78E-4427B5BF9D43}.Default|Default.ActiveCfg = Default
+		{8464159E-90F0-4FF5-ACCA-EC169BADF237}.Default|Default.ActiveCfg = Default
+		{03A39EFE-3CA4-4620-912C-EAB992CA49CA}.Default|Default.ActiveCfg = Default
+		{56E75C05-D423-410E-AC07-1AD527E7FD81}.Default|Default.ActiveCfg = Default
+		{7543286A-ECCB-495E-96AF-E51EC7324250}.Default|Default.ActiveCfg = Default
+		{6249E9E7-7719-4CCF-9721-AEE047B23E66}.Default|Default.ActiveCfg = Default
+		{1F9D8F6C-3024-4F7C-89E3-8C1261770572}.Default|Default.ActiveCfg = Default
+		{00592B9C-E6FC-4F33-AA10-29F5A88BAE55}.Default|Default.ActiveCfg = Default
+		{149E6D85-F49E-496B-A8F4-F205CE5A437F}.Default|Default.ActiveCfg = Default
+		{7406B09A-66ED-4966-8B58-95CEA74CFF8B}.Default|Default.ActiveCfg = Default
+		{AE6FCBFE-33D2-4DC9-A3BC-1CBAB7F1963C}.Default|Default.ActiveCfg = Default
+		{D331B0D2-3DD2-4F71-970C-9E5A111C31B4}.Default|Default.ActiveCfg = Default
+		{5B184BC7-9F8C-467B-9BC1-73AF15A2D2E0}.Default|Default.ActiveCfg = Default
+		{7FDFB7BC-53DB-4B2C-995E-0EDEADE057BD}.Default|Default.ActiveCfg = Default
+		{FD3322B0-089A-4E04-93A0-CCB0C6F79E11}.Default|Default.ActiveCfg = Default
+		{568B838E-EE5C-4F04-8329-9A7D4EA3DAA8}.Default|Default.ActiveCfg = Default
+		{D6210663-6B3E-4B36-8F28-9C6984AD7D7B}.Default|Default.ActiveCfg = Default
+		{CE280D8C-2A4C-4161-B073-8EBF328EE64C}.Default|Default.ActiveCfg = Default
+		{3403D032-C898-42F8-88FA-AD7A60EED0E8}.Default|Default.ActiveCfg = Default
+		{5AAD5DF8-8E30-4708-A488-A07110D5EC14}.Default|Default.ActiveCfg = Default
+		{B4557B58-8908-4425-AF67-5DB64EC65F2B}.Default|Default.ActiveCfg = Default
+		{0C8AA1AB-9CB3-48C5-B387-9CA963213E1D}.Default|Default.ActiveCfg = Default
+		{A67415C9-CDA9-457A-8FD1-20DA824B268A}.Default|Default.ActiveCfg = Default
+		{9BBC0C16-A63F-42ED-9159-08620E5B8599}.Default|Default.ActiveCfg = Default
+		{660AD24E-EDAD-4F68-B28D-1CCD79BACCF1}.Default|Default.ActiveCfg = Default
+		{70085CDE-EB0B-4328-A4B9-8F8E93668217}.Default|Default.ActiveCfg = Default
+		{CDDAED8B-8170-4384-AE2A-64EB9731FDD8}.Default|Default.ActiveCfg = Default
+		{602657E8-829B-4E0A-8437-AE0EAC5B4128}.Default|Default.ActiveCfg = Default
+		{7FBF13FD-0786-483A-B05A-A4D791D086D0}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {690EAA93-EE81-4795-BC2C-01CBA968CCB4}
+	EndGlobalSection
+EndGlobal
