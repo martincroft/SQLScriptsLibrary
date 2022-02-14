@@ -5,7 +5,7 @@ GO
 
 CREATE PROC uspDemoProcedure
 AS
-
+SET NOCOUNT ON
 BEGIN TRAN
 
 DECLARE @StartTime DATETIME = GETDATE()
@@ -96,22 +96,32 @@ SET SomeData= CAST(GETDATE() AS VARCHAR(20))
 FROM [Sales].[SalesOrderHeaderEnlarged]  SOH (TABLOCK)
 WHERE RowGUid IN (SELECT rowguid FROM #Results)
 
+UPDATE CurrentStatus SET CurrentValue=CurrentValue+1
+
 SELECT CAST(DATEDIFF(ms,@StartTime, GETDATE())AS VARCHAR(20))+ ' Ms'
 
+WAITFOR DELAY '00:00:01:00'
 
 COMMIT TRAN
 
 
+blocking
 
 --sp_DBA_GetIndexColumns 'SalesOrderHeaderEnlarged','sales'
 
+/*
+USE [AdventureWorks2019]
+GO
 
---USE [AdventureWorks2019]
---GO
+CREATE TABLE CurrentStatus (CurrentValue INT)
+INSERT INTO CurrentStatus  (1)
 
---/****** Object:  Index [AK_SalesOrderHeaderEnlarged_rowguid]    Script Date: 19/01/2022 16:26:19 ******/
---DROP INDEX [AK_SalesOrderHeaderEnlarged_rowguid] ON [Sales].[SalesOrderHeaderEnlarged]
---GO
+GO
+
+DROP INDEX [AK_SalesOrderHeaderEnlarged_rowguid] ON [Sales].[SalesOrderHeaderEnlarged]
+
+GO
+*/
 
 /*
 
@@ -120,8 +130,12 @@ CREATE UNIQUE NONCLUSTERED INDEX [AK_SalesOrderHeaderEnlarged_rowguid] ON [Sales
 	[rowguid] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 
+
+ 
+
 */
 
 --ALTER TABLE [Sales].[SalesOrderHeaderEnlarged] ADD [SomeData] VARCHAR(20)
+
 
 
