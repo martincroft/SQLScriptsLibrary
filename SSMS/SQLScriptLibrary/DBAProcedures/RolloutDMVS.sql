@@ -6,8 +6,6 @@ GO
 :setvar location "C:\SQLScriptsLibrary\SSMS\SQLScriptLibrary\DBAProcedures"
 
 
-
-
 USE Master
 GO
 :r $(location)\sp_DBA_BlockingInfo.sql
@@ -83,3 +81,5 @@ GO
 :r $(location)\sp_DBA_Jobschedules.sql
 
 EXEC sp_DBA_tools
+
+

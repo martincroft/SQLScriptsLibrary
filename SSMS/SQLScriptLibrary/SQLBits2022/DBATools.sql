@@ -1,6 +1,0 @@
-sp_DBA_DBSpaceCalc
-sp_DBA_GetIndexColumns
-sp_DBA_GetIndexStats
-sp_DBA_JobSchedule
-sp_DBA_List_dbroles
-sp_DBA_MissingIndexes

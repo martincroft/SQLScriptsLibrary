@@ -52,7 +52,7 @@ SELECT TOP (1000) [Id]
       ,[OwnerUserId]
       ,[ParentId]
       ,[PostTypeId]
-      ,[Score]
+      ,[Score] --
       ,[Tags]
       ,[Title]
       ,[ViewCount]

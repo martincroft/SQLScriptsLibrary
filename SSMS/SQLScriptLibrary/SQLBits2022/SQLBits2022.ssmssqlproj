@@ -19,29 +19,35 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="DBATools.sql">
+        <FileNode Name="00 CurrentStatus.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>DBATools.sql</FullPath>
+          <FullPath>00 CurrentStatus.sql</FullPath>
         </FileNode>
-        <FileNode Name="Demo.sql">
+        <FileNode Name="01 ShortCutKeys.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Demo.sql</FullPath>
+          <FullPath>01 ShortCutKeys.sql</FullPath>
         </FileNode>
-        <FileNode Name="Demo-blank.sql">
+        <FileNode Name="02 DBATools.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Demo-blank.sql</FullPath>
+          <FullPath>02 DBATools.sql</FullPath>
         </FileNode>
-        <FileNode Name="ShortCutKeys.sql">
+        <FileNode Name="03 Demo-blank.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>ShortCutKeys.sql</FullPath>
+          <FullPath>03 Demo-blank.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04 Demo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04 Demo.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
