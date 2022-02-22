@@ -59,12 +59,14 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Useful", "Useful\Useful.ssm
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Demo", "Demo\Demo.ssmssqlproj", "{7FBF13FD-0786-483A-B05A-A4D791D086D0}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQLBits2022", "SQLBits2022\SQLBits2022.ssmssqlproj", "{5AEF7F6A-1236-4D78-9540-763C5F5DF116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA6A8262-4486-4F7E-BE07-5DCA075927EF}.Default|Default.ActiveCfg = Default
+		{69227BB1-71E8-43F7-AF5A-CE143560BB90}.Default|Default.ActiveCfg = Default
 		{8015C49F-5A99-4391-B78E-4427B5BF9D43}.Default|Default.ActiveCfg = Default
 		{8464159E-90F0-4FF5-ACCA-EC169BADF237}.Default|Default.ActiveCfg = Default
 		{03A39EFE-3CA4-4620-912C-EAB992CA49CA}.Default|Default.ActiveCfg = Default
@@ -93,6 +95,7 @@ Global
 		{CDDAED8B-8170-4384-AE2A-64EB9731FDD8}.Default|Default.ActiveCfg = Default
 		{602657E8-829B-4E0A-8437-AE0EAC5B4128}.Default|Default.ActiveCfg = Default
 		{7FBF13FD-0786-483A-B05A-A4D791D086D0}.Default|Default.ActiveCfg = Default
+		{5AEF7F6A-1236-4D78-9540-763C5F5DF116}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

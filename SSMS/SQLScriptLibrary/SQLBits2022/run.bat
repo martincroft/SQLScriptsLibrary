@@ -1,0 +1,1 @@
+sqlcmd -S localhost -E -d Adventureworks2019 -Q "uspDemoProcedure"

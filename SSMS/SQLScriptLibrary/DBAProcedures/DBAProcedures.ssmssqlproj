@@ -25,11 +25,65 @@
           <AssociatedConnUserName />
           <FullPath>RolloutDMVS.sql</FullPath>
         </FileNode>
+        <FileNode Name="sp_DBA_BlockingInfo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_BlockingInfo.sql</FullPath>
+        </FileNode>
         <FileNode Name="sp_DBA_DBPermissions.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>sp_DBA_DBPermissions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_DBSpaceCalc_2005_2008.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_DBSpaceCalc_2005_2008.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_Deadlocks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_Deadlocks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_Duplicate_Indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_Duplicate_Indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_Expensive_Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_Expensive_Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_Expensive_Queries_Summary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_Expensive_Queries_Summary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_fields.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_fields.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_FindColumnUsage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_FindColumnUsage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_FK_Missing_Indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_FK_Missing_Indexes.sql</FullPath>
         </FileNode>
         <FileNode Name="sp_DBA_GetIndexColumns.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
@@ -37,11 +91,59 @@
           <AssociatedConnUserName />
           <FullPath>sp_DBA_GetIndexColumns.sql</FullPath>
         </FileNode>
+        <FileNode Name="sp_DBA_GetIndexStats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_GetIndexStats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_GetProcedureStats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_GetProcedureStats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_JobSchedules.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_JobSchedules.sql</FullPath>
+        </FileNode>
         <FileNode Name="sp_DBA_List_dbroles.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>sp_DBA_List_dbroles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_MissingIndexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_MissingIndexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_ProcedureExecutionPlan.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_ProcedureExecutionPlan.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_search_code.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_search_code.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_DBA_tools.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_DBA_tools.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_GetInfo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sp_GetInfo.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
