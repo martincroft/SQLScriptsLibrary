@@ -19,17 +19,17 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="00 CurrentStatus.sql">
+        <FileNode Name="00 Setup.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>00 CurrentStatus.sql</FullPath>
+          <FullPath>00 Setup.sql</FullPath>
         </FileNode>
-        <FileNode Name="01 ShortCutKeys.sql">
+        <FileNode Name="01 CurrentStatus.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>01 ShortCutKeys.sql</FullPath>
+          <FullPath>01 CurrentStatus.sql</FullPath>
         </FileNode>
         <FileNode Name="02 DBATools.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
@@ -48,6 +48,12 @@
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>04 Demo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05 ShortCutKeys.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05 ShortCutKeys.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
