@@ -11,7 +11,7 @@ Workflow RunParallelExecute
     ForEach -Parallel -ThrottleLimit 12 ($Procedure in $Procedure_List.Name) 
     {
          
-         start-process C:\SQLScriptsLibrary\SSMS\SQLScriptLibrary\SQLBits2022\run.bat
+         start-process -NoNewWindow C:\SQLScriptsLibrary\SSMS\SQLScriptLibrary\SQLBits2022\run.bat 
     }
 }
 RunParallelExecute
