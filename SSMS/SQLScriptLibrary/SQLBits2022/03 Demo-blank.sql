@@ -39,6 +39,7 @@
 --================================
 
 
+sp_DBA_tools
 
 
 
@@ -52,8 +53,7 @@
 
 
 
-
-
+sp_DBA_BlockingInfo
 
 
 
@@ -74,5 +74,12 @@
 /* Whats up with my code (simple version as we always know its it depends)*/
 --================================
 
+
+
+
+sp_DBA_GetProcedureStats  uspDemoProcedure
+
+
+sp_DBA_ProcedureExecutionPlan uspDemoProcedure
 
 
